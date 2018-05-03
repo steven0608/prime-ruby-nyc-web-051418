@@ -9,6 +9,7 @@ if i==1
 end
 if i==2 || i == 3
   true
+  break
 end
 for x in 2...(i)
   if i % x ==0
