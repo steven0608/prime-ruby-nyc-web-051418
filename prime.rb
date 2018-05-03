@@ -5,5 +5,6 @@ def prime?(i)
   else for integer in 2..(i-1)
 false if i % integer==0
 end
+end
 true
 end
