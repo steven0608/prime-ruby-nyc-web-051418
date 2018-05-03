@@ -1,20 +1,5 @@
 # Add  code here!
 def prime?(i)
-  if i<0
-    false
-    puts "Be sure to account for negative numbers!"
-end
-if i==1
-  false
-end
-if i==2 || i == 3
-  true
-
-end
-for x in 2...(i)
-  if i % x ==0
-    false
-end
-    true
-end
+for x in -i..i
+  if i>1 && x >=2 && !(i % x ==0) 
 end
