@@ -7,7 +7,10 @@ end
 if i==1
   false
 end
-for x in 2..(i-1)
+if i==2 || i == 3
+  true
+end
+for x in 2...(i)
   if i % x ==0
     false
 end
