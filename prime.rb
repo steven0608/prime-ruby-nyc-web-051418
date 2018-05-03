@@ -1,11 +1,6 @@
 # Add  code here!
 def prime?(i)
-if i <0
-  false
-   puts "Be sure to account for negative numbers!"
-elsif !(i % 2 == 0|| i % 3 == 0 || i % 5 == 0)|| i != 2 || i != 3
- true
- else
-  false
+!(i % 2 == 0|| i % 3 == 0 || i % 5 == 0 || i<0)|| i == 2 || i == 3 ? true : false
+puts "Be sure to account for negative numbers!" if (i<0)
 end
 end
