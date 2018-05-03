@@ -7,13 +7,10 @@ end
 if i==1
   false
 end
-
-for integer in 2..(i-1)
-  if i % integer ==0 
+for x in 2..(i-1)
+  if i % x ==0
     false
-  elsif
-  else
+end
     true
-  end
 end
 end
